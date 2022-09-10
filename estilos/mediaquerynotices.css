@@ -10,7 +10,7 @@
   --font02: 'EBGaramond', Verdana, Geneva, Tahoma, arial, sans-serif;
 }
 
-@media screen and (min-width: 400px) and (max-width:768px) {
+@media screen and (min-width: 500px) and (max-width:768px) {
    #caixa{
     margin: 0px;
     left: 0px;
@@ -59,7 +59,8 @@ nav > a{
    }
 #img{
     height: 350px;
-    width: 102%;
+    width: 100%;
+    margin: 0px;
    }
 #burguer{
     display: block;
@@ -69,6 +70,10 @@ nav > a{
 }
 #nav2{
   display: none;
+}
+#bottom{
+    display: inline-block;
+    margin: auto;
 }
 }
 @media screen and (min-width:768px) and (max-width: 992px){

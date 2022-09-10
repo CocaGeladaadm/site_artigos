@@ -17,7 +17,7 @@ nav{
 }
 nav > a{
     font-family: var(--font01);
-    font-size: 17px;
+    font-size: 3vh;
     font-weight: 500;
     text-decoration: none;
     color: white;
@@ -35,7 +35,7 @@ nav a:hover{
     
 }
 #nav2 > a{
-    font-size: 17px;
+    font-size: 3vh;
     font-weight: 500;
     text-decoration: none;
     color: black;
@@ -68,7 +68,7 @@ main > p{
     height: 100%;
 }
 #caixa{
-    font-size: 3.3vh;
+    font-size: 3vh;
     font-family: var(--font01);
     position: relative;
     left: 89px;
