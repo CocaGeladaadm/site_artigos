@@ -1,0 +1,94 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,700&family=Sriracha&display=swap');
+
+
+:root{
+  --color001: rgba(0, 0, 0, 0.324);
+  --color002: black;
+  --font01: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+  --font02: 'EBGaramond', Verdana, Geneva, Tahoma, arial, sans-serif;
+}
+
+@media screen and (min-width: 400px) and (max-width:768px){
+
+    main{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    nav{
+        display: block;
+        text-align: right;
+        margin-bottom: 30px;
+    }
+        
+    nav > a{
+        display: block;
+        padding: 20px;
+        padding-top: 14px;
+    }
+    #eye{
+        display: inline-block;
+        position: relative;
+        top: -20px;
+    }
+    }
+    #caixa{
+        margin: auto;
+        padding: 0px;
+    }
+    #caixa > h3{
+        margin: auto;
+        margin-top: 30px;
+    }
+    #notícias{
+        margin: auto;
+        display: block;
+    }
+    h1{
+        margin-bottom: 40px;
+    }
+    #burguer{
+        display: block;
+        text-align: end;
+        padding: 10px;
+        cursor: pointer;
+    }
+    #nav2{
+        display: none;
+    }
+
+@media screen and (min-width:768px) and (max-width: 992px){
+    #burguer{
+        display: none;
+    }
+    #nav2{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+} 
+@media screen and (min-width:992px) and (max-width:1200px){
+    #burguer{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    #nav2{
+        display: block;
+    }
+}    
+@media screen and (min-width:1200px){
+    nav{
+        display: none;
+    }
+    #burguer{
+        display: none;
+    }
+    #nav2{
+    display: block;
+    }
+}

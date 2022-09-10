@@ -1,0 +1,101 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,700&family=Sriracha&display=swap');
+
+
+:root{
+  --color001: rgba(0, 0, 0, 0.324);
+  --color002: black;
+  --font01: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+  --font02: 'EBGaramond', Verdana, Geneva, Tahoma, arial, sans-serif;
+}
+
+#nav2{
+    display: block;
+    text-align: right;
+    margin-top: -36px;
+    
+}
+#nav2 > a{
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    padding: 17px;
+}
+#nav2 a:hover{
+    text-decoration: underline;
+}
+nav{
+    display: flex;
+    justify-content: left;
+    margin-bottom: -29px;
+    margin-right: -20px;
+    margin-left: -20px;
+    background-color: black;
+}
+
+nav > a{
+    font-family: var(--font01);
+    font-size: 17px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    border-bottom: 1px solid white;
+    box-shadow: 1px;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin: auto;
+    width: 70%;
+    margin-top: 130px;
+}
+h1{
+    margin-top: 29px;
+    margin-bottom: 10px;
+    font-family: var(--font02);
+    font-weight: 400;
+    text-align: center;
+}
+#caixa{
+    padding: 7px;
+    padding-right: 60px;
+    height: 253px;
+    
+}
+#caixa > h3{
+    font-family: var(--font02);
+    font-size: 12px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    width: 143px;
+    padding: 6px;
+    border-radius: 4px;
+}
+#decor > h1 > a{
+    font-family: var(--font01);
+    color: var(--color002);
+    font-size: 25px;
+    text-decoration: none;
+}
+
+ p > a{
+    font-family: var(--font01);
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.675);
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+#autor > p{
+    margin-top: 26px;
+    font-family: var(--font01);
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.675);
+}

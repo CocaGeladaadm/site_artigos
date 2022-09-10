@@ -1,0 +1,104 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,700&family=Sriracha&display=swap');
+
+
+:root{
+  --color001: rgba(0, 0, 0, 0.324);
+  --color002: black;
+  --font01: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+  --font02: 'EBGaramond', Verdana, Geneva, Tahoma, arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-family: var(--font01);
+    font-weight: 400;
+}
+#nav2{
+    display: block;
+    text-align: right;
+    margin-top: -36px;
+    
+}
+#nav2 > a{
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    padding: 17px;
+}
+#nav2 a:hover{
+    text-decoration: underline;
+}
+nav{
+    background-color: black;
+    margin-right: -20px;
+    margin-left: -20px;
+}
+nav > a{
+    font-family: var(--font01);
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    border-bottom: 1px solid white;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+#noticia1{
+    width: 80%;
+    margin-top: 68px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    
+}
+#caixa > p > a{
+    text-decoration: none;
+    color: black;
+}
+
+#caixa > h3{
+    padding-top: 33px;
+    font-family: var(--font02);
+    font-weight: 300;
+    font-size: medium;
+}
+
+:hover > #caixa > p > a {
+    text-decoration: underline;
+}
+#caixa{
+    color: black;
+    font-family: var(--font01);
+    font-weight: 300;
+    height: 333px;
+    padding-left: 60px;
+}
+.autor{
+    font-family: var(--font02);
+    font-weight: 100;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.61);
+}
+#redes_sociais{
+    position: relative;
+    left: 7px;    
+    border: 1px solid rgba(0, 0, 0, 0.467);
+    width: 30px;
+    border-radius: 5px;
+}
+ #redes_sociais > p{
+    font-family: var(--font02);
+    font-weight: 200;
+    position: relative;
+    left: 9px;
+}
+#redes_sociais > a{
+    position: relative;
+    left: 7px;
+}
