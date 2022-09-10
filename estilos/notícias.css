@@ -30,7 +30,8 @@ nav a:hover{
 #nav2{
     display: block;
     text-align: right;
-    margin-top: 5px;
+    position: relative;
+    bottom: 26px;
     
 }
 #nav2 > a{
@@ -47,7 +48,7 @@ nav a:hover{
     display: inline-block;
     position: relative;
     bottom: 50px;
-    top: -6px;
+    top: 3px;
 }
 #img{
     margin-left: -8px;
