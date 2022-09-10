@@ -10,7 +10,7 @@
   --font02: 'EBGaramond', Verdana, Geneva, Tahoma, arial, sans-serif;
 }
 
-@media screen and (min-width: 500px) and (max-width:768px) {
+@media screen and (min-width: 400px) and (max-width:768px) {
    #caixa{
     margin: 0px;
     left: 0px;
