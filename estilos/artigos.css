@@ -13,8 +13,14 @@
 #nav2{
     display: block;
     text-align: right;
-    margin-top: 5px;
+    position: relative;
+    bottom: 20px;
     
+}
+#eye{
+    display: inline-block;
+    position: relative;
+    top: 10px;
 }
 #nav2 > a{
     font-size: 17px;
