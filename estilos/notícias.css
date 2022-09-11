@@ -81,6 +81,7 @@ main > p{
     height: 100%;
 }
 #caixa > h1{
+    font-size: 2vh;
     position: relative;
     top: 10px;
     left: -21px;
