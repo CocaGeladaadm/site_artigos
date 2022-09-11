@@ -9,7 +9,11 @@
   --font01: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
   --font02: 'EBGaramond', Verdana, Geneva, Tahoma, arial, sans-serif;
 }
-
+@media screen and (min-width:400px){
+    #nav2{
+        display: none;
+      }
+}
 @media screen and (min-width: 400px) and (max-width:768px){
    #caixa{
     margin: 0px;
